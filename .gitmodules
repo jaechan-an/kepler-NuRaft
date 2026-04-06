@@ -1,6 +1,7 @@
 [submodule "NuRaft"]
 	path = NuRaft
 	url = https://github.com/eBay/NuRaft.git
+    ignore = untracked
 [submodule "rocksdb"]
 	path = rocksdb
 	url = https://github.com/facebook/rocksdb.git

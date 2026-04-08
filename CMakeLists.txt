@@ -28,6 +28,7 @@ set_target_properties(rocksdb PROPERTIES IMPORTED_LOCATION ${ROCKSDB_LIB})
 target_include_directories(nuraft INTERFACE
     ${CMAKE_SOURCE_DIR}/NuRaft/include
     ${CMAKE_SOURCE_DIR}/NuRaft/include/libnuraft
+    ${CMAKE_SOURCE_DIR}/NuRaft/tests
 )
 target_include_directories(rocksdb INTERFACE
     ${CMAKE_SOURCE_DIR}/rocksdb/include
